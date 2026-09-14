@@ -1,37 +1,106 @@
 <!DOCTYPE html>
-<!-- Set the language attribute to English for browsers and Google -->
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <!-- SEO Title: What people see on Google search results -->
-    <title>Welcome to the Beans'R'Us - Pricing Page (Head First Exercise)</title>
-	<link rel="stylesheet" type="text/css" href="beansrus.css">
-    <!-- SEO Description: The text snippet under the title on Google -->
-    <meta name="description" content="An active replica of the Beans'R'Us website from the Head First books. Features an automated dynamic price picker for web scraping practice.">
-    <!-- SEO Keywords: Search terms related to the project -->
-    <meta name="keywords" content="Beans R Us, Beans'R'Us, Head First HTML CSS, Head First Python, beans-r-us.biz alternative, beans.itcarlow.ie/prices.html, coffee price exercise, web scraping practice">
-	
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Beans'R'Us - Head First Programming Web Scraping Exercise</title>
+
+    <meta name="description"
+          content="Educational recreation of the Beans'R'Us coffee pricing page for students following Head First programming books and practicing Python web scraping exercises.">
+
+    <meta name="keywords"
+          content="Beans R Us, Beans'R'Us, Head First Programming, Head First Python, Use a Cabeça Programação, Python web scraping, urllib, coffee price exercise, Beans R Us exercise">
+
+    <meta name="author"
+          content="Luiz Gustavo">
+
+    <meta name="robots"
+          content="index, follow">
+
+    <link rel="canonical"
+          href="https://viperlg.github.io/beans-r-us.com/">
+
+    <link rel="stylesheet"
+          type="text/css"
+          href="beansrus.css">
 </head>
+
+
 <body>
-	<h1><center>Welcome to the Beans'R'Us Pricing Page</center></h1>
-	<p>Current price of coffee beans = $<span id="price">6.36</span>
-</p>
-	<p>Price valid for 15 minutes from <span id="data-atual"></span></p>
-    <script>
-        // 1. Pega a data e hora exata de agora
-        const agora = new Date();
-        
-        // 2. Converte para texto e corta para ter exatamente 24 caracteres 
-        // Exemplo de saída: "Mon Sep 14 2026 01:32:05"
-        const dataFormatada = agora.toString().substring(0, 24);
-        
-        // 3. Coloca o resultado dentro da tag <p>
-        document.getElementById('data-atual').innerText = dataFormatada;
-    </script>
-	<br>
-	<p><i>An educational replica of the Beans'R'Us website, based on the Head First books.<br>
-		It features automatic dynamic pricing to help students test their code and web scraping scripts.</i></p>
+
+    <main>
+
+        <h1 style="text-align: center;">
+            Welcome to the Beans'R'Us Pricing Page
+        </h1>
+
+
+        <p>
+            Current price of coffee beans =
+            $<span id="price">6.36</span>
+        </p>
+
+
+        <p>
+            Price valid for 15 minutes from
+            <span id="data-atual"></span>
+        </p>
+
+
+        <script>
+            const agora = new Date();
+
+            const dataFormatada =
+                agora.toString().substring(0, 24);
+
+            document.getElementById("data-atual").innerText =
+                dataFormatada;
+        </script>
+
+
+        <br>
+
+
+        <section aria-labelledby="about-project">
+
+            <h2 id="about-project">
+                About this educational project
+            </h2>
+
+            <p>
+                This is an independent educational recreation of the
+                Beans'R'Us pricing page used in exercises from the
+                <em>Head First</em> programming books.
+            </p>
+
+            <p>
+                The original exercise website is no longer available
+                as it once was, so this page was recreated to help
+                students continue practicing Python, urllib and
+                web scraping exercises from the books.
+            </p>
+
+            <p>
+                This project was created by a student who learned from
+                the Head First books and wanted to give something back
+                by keeping the exercise usable for other learners.
+            </p>
+
+            <p>
+                This website is not affiliated with or endorsed by the
+                original authors, publishers or owners of the
+                Beans'R'Us material. It exists solely for educational
+                and programming practice purposes.
+            </p>
+
+        </section>
+
+    </main>
+
 </body>
+
 </html>
