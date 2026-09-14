@@ -17,10 +17,7 @@
 <body>
 	<h1><center>Welcome to the Beans'R'Us Pricing Page</center></h1>
 	<p>Current price of coffee beans = <strong>$6.36</strong></p>
-	<p>Price valid for 15 minutes from Thu Oct 29 08:08:02 2009.</p>
-<!-- A tag <p> onde a data atual vai aparecer -->
-    <p id="data-atual"></p>
-
+	<p>Price valid for 15 minutes from <span id="data-atual"></span></p>
     <script>
         // 1. Pega a data e hora exata de agora
         const agora = new Date();
@@ -32,5 +29,6 @@
         // 3. Coloca o resultado dentro da tag <p>
         document.getElementById('data-atual').innerText = dataFormatada;
     </script>
+	<p><i>ENG: An educational replica of the Beans'R'Us website, based on the Head First HTML and CSS book. It features automatic dynamic pricing to help students test their code and web scraping scripts.</i></p>
 </body>
 </html>
