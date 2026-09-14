@@ -1,5 +1,6 @@
 body {
-        height: 100vh; 
+        height: 100vh;
+        box-sizing: border-box;
         background-color: tan;
         margin-left: 20%;
         margin-right: 20%;
