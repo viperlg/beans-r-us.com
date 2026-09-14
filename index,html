@@ -7,7 +7,7 @@
 
     <!-- SEO Title: What people see on Google search results -->
     <title>Welcome to the Beans'R'Us - Coffee Beans - Pricing Page (Head First Books Exercise)</title>
-	<link rel="stylesheet" type="text/css" href="beansrus.css"/>
+	<link rel="stylesheet" type="text/css" href="beansrus.css">
 
     <!-- SEO Description: The text snippet under the title on Google -->
     <meta name="description" content="An active replica of the Beans'R'Us website from the Head First books. Features an automated dynamic price picker for web scraping practice.">
