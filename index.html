@@ -8,18 +8,29 @@
     <!-- SEO Title: What people see on Google search results -->
     <title>Welcome to the Beans'R'Us - Pricing Page (Head First Exercise)</title>
 	<link rel="stylesheet" type="text/css" href="beansrus.css">
-
     <!-- SEO Description: The text snippet under the title on Google -->
     <meta name="description" content="An active replica of the Beans'R'Us website from the Head First books. Features an automated dynamic price picker for web scraping practice.">
-
     <!-- SEO Keywords: Search terms related to the project -->
     <meta name="keywords" content="Beans R Us, Beans'R'Us, Head First HTML CSS, Head First Python, beans-r-us.biz alternative, beans.itcarlow.ie/prices.html, coffee price exercise, web scraping practice">
+	
 </head>
 <body>
-	<!-- TODO: Write your Beans'R'Us HTML body layout below -->
-	<h1>Welcome to the Beans'R'Us Pricing Page</h1>
-	<p>Current price of coffee beans =<strong>$6.36</strong></p>
+	<h1><center>Welcome to the Beans'R'Us Pricing Page</center></h1>
+	<p>Current price of coffee beans = <strong>$6.36</strong></p>
 	<p>Price valid for 15 minutes from Thu Oct 29 08:08:02 2009.</p>
+<!-- A tag <p> onde a data atual vai aparecer -->
+    <p id="data-atual"></p>
 
+    <script>
+        // 1. Pega a data e hora exata de agora
+        const agora = new Date();
+        
+        // 2. Converte para texto e corta para ter exatamente 24 caracteres 
+        // Exemplo de saída: "Mon Sep 14 2026 01:32:05"
+        const dataFormatada = agora.toString().substring(0, 24);
+        
+        // 3. Coloca o resultado dentro da tag <p>
+        document.getElementById('data-atual').innerText = dataFormatada;
+    </script>
 </body>
 </html>
