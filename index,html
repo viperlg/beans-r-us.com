@@ -1,0 +1,60 @@
+<html>
+<head>
+<script src="https://web-static.archive.org/_static/js/athena.js" type="text/javascript"></script>
+
+  __wm.wombat("http://beans.itcarlow.ie:80/prices.html","20091029080231","https://web.archive.org/","web","https://web-static.archive.org/_static/",
+	      "1256803351");
+</script>
+<title>Welcome to the Beans'R'Us Pricing Page</title>
+<link rel="stylesheet" type="text/css" href="/web/20091029080231cs_/http://beans.itcarlow.ie/beansrus.css"/>
+</head>
+<body>http://beans.itcarlow.ie/prices.html" 
+
+
+<!DOCTYPE html>
+<!-- Set the language attribute to English for browsers and Google -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- SEO Title: What people see on Google search results -->
+    <title>Beans'R'Us - Coffee Beans (Head First HTML & CSS Exercise)</title>
+
+    <!-- SEO Description: The text snippet under the title on Google -->
+    <meta name="description" content="An active replica of the Beans'R'Us website from the Head First HTML & CSS book. Features an automated dynamic price picker for web scraping practice.">
+
+    <!-- SEO Keywords: Search terms related to the project -->
+    <meta name="keywords" content="Beans R Us, Beans'R'Us, Head First HTML CSS, beans-r-us.biz alternative, coffee price exercise, web scraping practice">
+</head>
+<body>
+
+    <!-- TODO: Write your Beans'R'Us HTML body layout below -->
+
+</body>
+</html>
+<!DOCTYPE html>
+<!-- Set the language attribute to English for browsers and Google -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- SEO Title: What people see on Google search results -->
+    <title>Beans'R'Us - Coffee Beans (Head First HTML & CSS Exercise)</title>
+
+    <!-- SEO Description: The text snippet under the title on Google -->
+    <meta name="description" content="An active replica of the Beans'R'Us website from the Head First HTML & CSS book. Features an automated dynamic price picker for web scraping practice.">
+
+    <!-- SEO Keywords: Search terms related to the project -->
+    <meta name="keywords" content="Beans R Us, Beans'R'Us, Head First HTML CSS, beans-r-us.biz alternative, coffee price exercise, web scraping practice">
+</head>
+<body>
+
+    <!-- TODO: Write your Beans'R'Us HTML body layout below -->
+        Welcome to the Beans'R'Us Pricing Page
+Current price of coffee beans = $6.36
+
+Price valid for 15 minutes from Thu Oct 29 08:08:02 2009.
+</body>
+</html>
