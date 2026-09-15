@@ -12,16 +12,17 @@
     <link rel="stylesheet" type="text/css" href="beansrus.css">
 </head>
 <body>
-    <main>
-        <h1 style="text-align: center;">Welcome to the Beans'R'Us Pricing Page</h1>
-        <p>Current price of coffee beans = $<span id="price">6.36</span></p>
-        <p>Price valid for 15 minutes from<span id="data-atual"></span></p>
-        <script>
-            const agora = new Date();
-            const dataFormatada = agora.toString().substring(0, 24);
-            document.getElementById("data-atual").innerText = dataFormatada;
-        </script>
-        <br>
+    <main
+        <div class="conteudo-topo">
+            <h1 style="text-align: center;">Welcome to the Beans'R'Us Pricing Page</h1>
+            <p>Current price of coffee beans = $<span id="price">6.36</span></p>
+            <p>Price valid for 15 minutes from<span id="data-atual"></span></p>
+            <script>
+                const agora = new Date();
+                const dataFormatada = agora.toString().substring(0, 24);
+                document.getElementById("data-atual").innerText = dataFormatada;
+            </script>
+        </div>
         <section aria-labelledby="about-project">
             <h2 id="about-project">About this educational project</h2>
             <p>This is an independent educational recreation of the Beans'R'Us pricing page used in exercises from the <em>Head First</em> programming books.</p>
