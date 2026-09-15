@@ -1,3 +1,23 @@
+* {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+}
+
+/* Garante que o HTML e o Body ocupem toda a tela */
+html, body {
+        height: 100%;
+        width: 100%;
+}
+
+body {
+        background-color: #d7be99;
+        border: 1px solid #a0a0a0;
+        padding: 20px;
+        font-family: Arial, sans-serif;
+}
+
+/*
 body {
         height: 100vh;
         box-sizing: border-box;
@@ -15,3 +35,4 @@ section {
   left: 0;
   width: 100%; /* Garante que ela ocupe toda a largura */
 }
+*/
